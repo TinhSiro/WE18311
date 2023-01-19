@@ -1,6 +1,7 @@
+hr{color: blue;}
 .menu>a{
-    font-variant: small-caps;
     color: blue;
+    font-variant: small-caps;
     text-decoration: none;
 }
 .menu>a:visited{

@@ -1,0 +1,59 @@
+fieldset{
+    width: 400px;
+    background-color: whitesmoke;
+    border: none;
+}
+.div1 h5{
+    color:grey;
+    line-height:0px;
+}
+.facebook{
+    text-align: center;
+    color: blue;
+    line-height:0px;
+}
+.facebook h2{
+    text-align: right;
+    right: 15px;
+}
+.facebook h2 a{
+    text-decoration: none;
+    color: gray;
+}
+.sinhnhat{
+    color: grey;
+}
+.gioitinh{
+    color: grey;
+}
+.label1{
+    border: 1px solid black;
+    margin: 1px;
+}
+.label2{
+    border: 1px solid black;
+}
+.label3{
+    border: 1px solid black;
+}
+button{
+    background-color: green;
+    text-align: center;
+    color: aliceblue;
+    border: none;
+    width: 150px; height: 30px;
+    border-radius: 5px;
+}
+.div2{
+    color: gray;
+}
+.div2 a{
+    text-decoration: none;
+}
+.div3{
+    color: gray;
+}
+.div3 a{
+    text-decoration: none;
+}
+

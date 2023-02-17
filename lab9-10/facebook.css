@@ -36,7 +36,7 @@ fieldset{
 .label3{
     border: 1px solid black;
 }
-.button{
+button{
     background-color: green;
     text-align: center;
     color: aliceblue;

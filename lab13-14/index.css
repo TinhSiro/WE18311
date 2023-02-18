@@ -1,0 +1,35 @@
+*{
+    background-color: whitesmoke;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    border-radius: 20px;
+}
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:justify;
+}
+main p img {
+    float: left;
+    width: 60%;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 1px;
+    margin: 5px;
+}
+main video {
+    clear: both;
+    float: left;
+    margin: 5px;
+    padding: 1px;
+    width: 60%;
+    max-width: 500px;
+    min-width: 250px;
+    max-height: 700px;
+    min-height: 250px;
+}

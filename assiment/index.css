@@ -1,0 +1,210 @@
+header{
+    background-image: url(img/lotruong.png);
+    padding: 15%;
+    background-size: 100% ;
+}
+
+header .top-right{
+    width: 250px;
+    height: 17px;
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+header .top-right a{
+    text-decoration: none;
+    color: seagreen;
+    padding: 2px;
+}
+header .top-right a:hover{
+    background: aquamarine;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: lato;
+    color: black;
+}
+nav{
+    height: 40px;
+    background: aqua;
+    margin-bottom: 5px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 0 20px;
+    border-right: 1px solid gray;
+}
+nav ul li:hover{
+    background: aquamarine;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: seagreen;
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav .timkiem{
+    float: right;
+    line-height: 40px;
+}
+nav .timkiem input{
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+}
+nav .timkiem button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: silver;
+    color: seagreen;
+    margin-left: -5px;
+}
+.chuchay{
+    position: relative;
+    margin-bottom: 5px;
+}
+aside{
+    float: left;
+    width: 300px;
+    border-left: 1px gainsboro solid;
+}
+aside ul li a{
+    text-decoration: none;
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: aqua;
+    color: seagreen;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border-top: 1px solid gray;
+}
+.menu ul li:hover{
+    background-color: aquamarine;
+}
+footer{
+    width: 100%;
+    clear: both;
+    background: aqua;
+    color: seagreen;
+}
+.footer1{
+    float: left;
+    width: 400px;
+    margin-bottom: 25px;
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+}
+.footer2{
+    width: 100%;
+    clear: both;
+    height: 40px;
+    background: aqua;
+}
+.footer2 p{
+    color: seagreen;
+    font-size: 15px;
+    font-variant: small-caps;
+    text-align: center;
+}
+article{
+	border: 1px solid #ccc;
+	border-bottom: none;
+	width: 898px;
+	min-height: 1040px;
+	float: left;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.content-l{
+	width: 500px;
+	padding: 0px 20px;
+	float: left;
+}
+.content-l h2{
+	color: aqua;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	font-size: 26px;
+}
+.content-l p{
+	line-height: 24px;
+	word-spacing: 1px;
+}
+.content-r{
+	padding: 60px 10px;
+	padding-left: 0;
+	float: left;
+	width: 348px;
+}
+.content-r img{
+	width: 340px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 5px #ccc;
+}
+.teacher{
+	text-align: center;
+	clear: both;
+	width: 900px;
+	height: 490px;
+	background: aliceblue ;
+	border-radius: 5px;
+}
+.teacher h2{
+	padding: 20px 0;
+	padding-bottom: 10px;
+	color: seagreen;
+	font-size: 26px;
+}
+.teacher i{
+	font-size: 17px;
+	color: seagreen;
+}
+.people{
+	padding: 15px 22px;
+}
+.people .personal{
+	width: 270px;
+	height: 360px;
+	background: white;
+	float: left;
+	margin-right: 15px;
+	border-radius: 30px;
+
+}
+
+.people .personal img{
+	margin-top: 15px;
+	width: 270px;
+	height: 270px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.people .personal h5{
+	font-size: 18px;
+	padding: 10px 0;
+	color: seagreen;
+}

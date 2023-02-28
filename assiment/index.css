@@ -1,7 +1,26 @@
 header{
-    background-image: url(img/toan-canh-2022.jpg);
-    padding: 10%;
-    background-size: 100% 100%;
+    background-image: url(img/lotruong.png);
+    padding: 15%;
+    background-size: 100% ;
+}
+
+header .top-right{
+    width: 250px;
+    height: 17px;
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+}
+header .top-right a{
+    text-decoration: none;
+    color: seagreen;
+    padding: 2px;
+}
+header .top-right a:hover{
+    background: aquamarine;
 }
 *{
     margin: 0px;
@@ -72,7 +91,6 @@ h3{
     padding: 10px 15px;
     background: aqua;
     color: seagreen;
-    text-shadow: 2px 2px 5px;
 }
 .menu ul{
     list-style: none;
@@ -111,4 +129,82 @@ footer h3{
     font-size: 15px;
     font-variant: small-caps;
     text-align: center;
+}
+article{
+	border: 1px solid #ccc;
+	border-bottom: none;
+	width: 898px;
+	min-height: 1040px;
+	float: left;
+	box-shadow: 2px 2px 2px #ccc;
+}
+.content-l{
+	width: 500px;
+	padding: 0px 20px;
+	float: left;
+}
+.content-l h2{
+	color: aqua;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	font-size: 26px;
+}
+.content-l p{
+	line-height: 24px;
+	word-spacing: 1px;
+}
+.content-r{
+	padding: 60px 10px;
+	padding-left: 0;
+	float: left;
+	width: 348px;
+}
+.content-r img{
+	width: 340px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 5px #ccc;
+}
+.teacher{
+	text-align: center;
+	clear: both;
+	width: 900px;
+	height: 490px;
+	background: aliceblue ;
+	border-radius: 5px;
+}
+.teacher h2{
+	padding: 20px 0;
+	padding-bottom: 10px;
+	color: seagreen;
+	font-size: 26px;
+}
+.teacher i{
+	font-size: 17px;
+	color: seagreen;
+}
+.people{
+	padding: 15px 22px;
+}
+.people .personal{
+	width: 270px;
+	height: 360px;
+	background: white;
+	float: left;
+	margin-right: 15px;
+	border-radius: 30px;
+
+}
+
+.people .personal img{
+	margin-top: 15px;
+	width: 270px;
+	height: 270px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.people .personal h5{
+	font-size: 18px;
+	padding: 10px 0;
+	color: seagreen;
 }
